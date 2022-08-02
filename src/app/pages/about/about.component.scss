@@ -1,0 +1,51 @@
+.custom-marker {
+  display: flex;
+  width: 2rem;
+  height: 2rem;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+::ng-deep {
+  .profile {
+    font-family: "Roboto";
+
+  }
+
+  .p-card-content {
+    text-align: left;
+  }
+
+  .p-timeline-event-content > p-card > div{
+    color: white;
+    background: url('/assets/images/backgrounds/circular-lavender-muskox.png');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+  }
+}
+
+@media screen and (max-width: 960px) {
+  ::ng-deep {
+      .customized-timeline {
+          .p-timeline-event:nth-child(even) {
+              flex-direction: row !important;
+
+              .p-timeline-event-content {
+                  text-align: left !important;
+              }
+          }
+
+          .p-timeline-event-opposite {
+              flex: 0;
+          }
+
+          .p-card {
+              margin-top: 1rem;
+          }
+      }
+  }
+}
