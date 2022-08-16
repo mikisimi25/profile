@@ -10,21 +10,17 @@
 }
 
 ::ng-deep {
-  .profile {
-    font-family: "Roboto";
-
-  }
 
   .p-card-content {
     text-align: left;
   }
 
   .p-timeline-event-content > p-card > div{
-    color: white;
-    background: url('/assets/images/backgrounds/circular-lavender-muskox.png');
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
+    // color: white;
+    // background: url('/assets/images/backgrounds/circular-lavender-muskox.png');
+    // background-position: center; /* Center the image */
+    // background-repeat: no-repeat; /* Do not repeat the image */
+    // background-size: cover; /* Resize the background image to cover the entire container */
   }
 }
 

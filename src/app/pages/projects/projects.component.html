@@ -1,0 +1,32 @@
+<div class="md:col-8 md:col-offset-2 col-12 profile" style="text-align: center">
+  <h1>Proyectos</h1>
+  <div class="grid">
+
+    <p-card [header]="project.name" class="md:col-8 md:col-offset-2 col-12 project" *ngFor="let project of projects">
+
+      <div class="icon" *ngIf="project.link">
+        <i class="pi pi-external-link"></i>
+      </div>
+
+      <ng-template pTemplate="header">
+
+        <a [href]="project.link" target="_blank" *ngIf="project.link;else linkOff">
+          <img alt="Card" [src]="'assets/images/projects/' + project.image + '.png'">
+        </a>
+
+        <ng-template #linkOff>
+          <img alt="Card" [src]="'assets/images/projects/' + project.image + '.png'">
+        </ng-template>
+
+      </ng-template>
+
+      <ng-template pTemplate="content">{{ project.description }}</ng-template>
+
+      <ng-template pTemplate="footer">
+        <p-tag styleClass="mr-2" [value]="tag" [rounded]="true" *ngFor="let tag of project.tags"></p-tag>
+      </ng-template>
+
+    </p-card>
+
+  </div>
+</div>

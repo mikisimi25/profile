@@ -8,14 +8,13 @@ import { MenuItem } from 'primeng/api';
   ]
 })
 export class HeaderComponent implements OnInit {
-  items!: MenuItem[];
-
-  activeItem!: MenuItem;
+  public items: MenuItem[] = [];
+  public activeItem: MenuItem = {};
 
   ngOnInit() {
       this.items = [
           {label: 'Sobre mi', icon: 'pi pi-fw pi-user', routerLink: ['']},
-          // {label: 'Proyectos', icon: 'pi pi-fw pi-briefcase', routerLink: ['/projects']},
+          {label: 'Proyectos', icon: 'pi pi-fw pi-briefcase', routerLink: ['/projects']},
           // {label: 'Blog', icon: 'pi pi-fw pi-bookmark-fill'},
           // {label: 'Colecciones', icon: 'pi pi-fw pi-folder-open'},
       ];
