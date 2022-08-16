@@ -1,0 +1,24 @@
+::ng-deep {
+  .social-menu {
+    a {
+      color: rgb(58, 58, 58);
+
+      :hover {
+        color: #6c757d;
+      }
+
+      text-decoration: none;
+
+      h5 {
+        font-size: 110%;
+      }
+    }
+
+    li {
+      margin-right: 1em;
+      float: left;
+      text-decoration: none;
+    }
+
+  }
+}

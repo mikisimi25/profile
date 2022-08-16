@@ -1,1 +1,13 @@
-<p-menubar [model]="items"></p-menubar>
+<p-menubar [model]="items">
+  <ng-template pTemplate="end">
+    <ul class="social-menu">
+      <li *ngFor="let item of social">
+        <a [href]="item.href" target="_blank">
+
+          <h5><i [class]="item.icon"></i>{{ item.label }}</h5>
+        </a>
+      </li>
+    </ul>
+
+  </ng-template>
+</p-menubar>
