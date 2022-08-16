@@ -1,0 +1,17 @@
+
+::ng-deep {
+  .project {
+    position: relative;
+
+    i {
+      position: absolute;
+      right: 20px;
+      top: 10px;
+      color:#3B82F6;
+      background:white;
+      padding:0.7em 0.8em;
+      box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+      border-radius: 100%;
+    }
+  }
+}
