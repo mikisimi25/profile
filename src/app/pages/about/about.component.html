@@ -2,13 +2,13 @@
   <h1>Maksym Ostapenko Kulieba</h1>
 
   <div class="grid mb-3 p-5">
-    <p>{{description.text}}</p>
+    <p>{{'ABOUT_ME.DESCRIPTION' | translate}}</p>
 
   </div>
 
-  <div class="" style="text-align: center">
+  <div style="text-align: center">
 
-    <h1>Mi ruta</h1>
+    <h1>{{'ABOUT_ME.MY_ROUTE' | translate}}</h1>
 
     <div class="card">
       <p-timeline [value]="timeline" align="alternate" styleClass="customized-timeline">
@@ -18,8 +18,8 @@
               </span>
           </ng-template>
           <ng-template pTemplate="content" let-event>
-              <p-card [header]="event.status" [subheader]="event.date">
-                <p [innerHTML]="event.text"></p>
+              <p-card [header]="event.status | translate" [subheader]="event.date">
+                <p [innerHTML]="event.text | translate"></p>
               </p-card>
           </ng-template>
       </p-timeline>

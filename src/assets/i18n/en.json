@@ -1,0 +1,22 @@
+{
+  "HEADER": {
+    "ABOUT_ME": "About Me",
+    "PROYECTS": "Projects"
+  },
+  "ABOUT_ME": {
+      "DESCRIPTION": "Graduated in Web Application Development, with a great interest in programming, in learning new technologies and perfecting those already learned. With the ability to learn and apply my knowledge to the professional field.",
+      "MY_ROUTE": "My route",
+      "GSDAW_TITLE": "Higher Degree in Web Application Development",
+      "GSDAW_DESCRIPTION": "In the higher degree I have developed applications using Angular as the framework for the frontend and Laravel as the framework for the backend. At the same time I have learned to use MySQL, Git and Github and Java.",
+      "DEKRA_TITLE": "Dekra T.C.",
+      "DEKRA_DESCRITPION": "At Dekra my position was as a Full Stack developer specialized in web development. My functions were the following:<br><br>1. Develop and implement improvements to the company's web application.<br><br>2. Develop new internal company applications.<br><br>3. I have also been developing large projects as a team.<br><br>In Dekra the software that I have been developing was with Angular, AngularJS, Java, SQL and at the same time Jira has been used for task control and Git for version control."
+  },
+  "PROYECTS": {
+    "MLDP_TITLE": "My movie list",
+    "MLDP_DESCRIPTION": "Today there are innumerable sources of entertainment such as movies and series, My Movie List is a web application that allows the user to explore the movies or series that are popular at the moment, view their data, etc... Also if the user wants organize the content you are consuming I can do it by creating lists, for example, lists of favorite movies.",
+    "KO_TITLE": "Kaleta Olejnik",
+    "KO_DESCRIPTION": "This website is an online store. It belongs to a distributor of masonry machinery and tools.",
+    "DECOTEND_TITLE": "Decotend",
+    "DECOTEND_DESCRIPTION": "This page is a landing page for a construction company on the Costa del Sol."
+  }
+}
