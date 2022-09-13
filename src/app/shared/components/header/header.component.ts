@@ -19,22 +19,13 @@ export class HeaderComponent implements OnInit {
 
   constructor( private translate: TranslateService) {
     this.setLanguage();
-
-    forkJoin({
-      ABOUT_ME: this.translate.get('HEADER.ABOUT_ME'),
-      PROYECTS: this.translate.get('HEADER.PROYECTS'),
-    }).subscribe(({ABOUT_ME, PROYECTS}) => {
-
-      this.items = [
-        {label: ABOUT_ME, icon: 'pi pi-fw pi-user', routerLink: ['']},
-        {label: PROYECTS, icon: 'pi pi-fw pi-briefcase', routerLink: ['/projects']},
-        // {label: 'Blog', icon: 'pi pi-fw pi-bookmark-fill'},
-        // {label: 'Colecciones', icon: 'pi pi-fw pi-folder-open'},
-      ];
-    });
   }
 
   ngOnInit() {
+    this.translate.get('HEADER.ABOUT_ME').subscribe(() => console.log('object'))
+
+      this.menuItemsTranslate();
+
       this.social = [
         {label: 'Linkedin', icon: 'pi pi-fw pi-linkedin', href: 'https://www.linkedin.com/in/maksym-ostapenko-kulieba-798228210/'},
         {label: 'Github', icon: 'pi pi-fw pi-github', href: 'https://github.com/mikisimi25'}
@@ -49,6 +40,8 @@ export class HeaderComponent implements OnInit {
     this.translate.use(this.languageCase);
 
     localStorage.setItem('lang', JSON.stringify(this.languageCase));
+
+    this.menuItemsTranslate();
   }
 
   public setLanguage() {
@@ -64,9 +57,19 @@ export class HeaderComponent implements OnInit {
           this.languageCase = 'en';
           this.translate.use('en');
           break;
-
       }
-
     }
+  }
+
+  public menuItemsTranslate() {
+    forkJoin({
+      ABOUT_ME: this.translate.get('HEADER.ABOUT_ME'),
+      PROYECTS: this.translate.get('HEADER.PROYECTS'),
+    }).subscribe(({ABOUT_ME, PROYECTS}) => {
+      this.items = [
+        {label: ABOUT_ME, icon: 'pi pi-fw pi-user', routerLink: ['']},
+        {label: PROYECTS, icon: 'pi pi-fw pi-briefcase', routerLink: ['/projects']}
+      ];
+    });
   }
 }
