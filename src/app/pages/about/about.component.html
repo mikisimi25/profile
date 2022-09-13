@@ -18,7 +18,7 @@
               </span>
           </ng-template>
           <ng-template pTemplate="content" let-event>
-              <p-card [header]="event.status | translate" [subheader]="event.date">
+              <p-card [header]="event.status | translate" [subheader]="event.date | translate">
                 <p [innerHTML]="event.text | translate"></p>
               </p-card>
           </ng-template>

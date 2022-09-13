@@ -14,18 +14,18 @@ export class AboutComponent implements OnInit {
   ngOnInit() {
       this.timeline = [
           {
-            status: 'ABOUT_ME.GSDAW_TITLE',
-            date: '2020 - 2022',
+            status: 'ABOUT_ME.GSDAW.TITLE',
+            date: 'ABOUT_ME.GSDAW.DATE',
             icon: PrimeIcons.BOOK,
             color: '#FFCA23',
-            text: 'ABOUT_ME.GSDAW_DESCRIPTION'
+            text: 'ABOUT_ME.GSDAW.DESCRIPTION'
           },
           {
-            status: 'ABOUT_ME.DEKRA_TITLE',
-            date: 'Marzo 2022 - Junio 2022',
+            status: 'ABOUT_ME.DEKRA.TITLE',
+            date: 'ABOUT_ME.DEKRA.DATE',
             icon: PrimeIcons.BRIEFCASE,
             color: '#1F8A49',
-            text: 'ABOUT_ME.DEKRA_DESCRITPION'
+            text: 'ABOUT_ME.DEKRA.DESCRIPTION'
           },
       ];
   }

@@ -14,22 +14,29 @@ export class ProjectsComponent implements OnInit {
   ngOnInit(): void {
     this.projects = [
       {
-        name: 'PROYECTS.MLDP_TITLE',
-        description: 'PROYECTS.MLDP_DESCRIPTION',
+        name: 'PROYECTS.MLDP.TITLE',
+        description: 'PROYECTS.MLDP.DESCRIPTION',
         image: 'mldp',
         tags: ['Angular','Laravel','Redux','SCSS','PrimeNG','PrimeFlex'],
         link: 'https://mikisimi25.github.io/MLDP-frontend/'
       },
       {
-        name: 'PROYECTS.KO_TITLE',
-        description: 'PROYECTS.KO_DESCRIPTION',
+        name: 'PROYECTS.AS.TITLE',
+        description: 'PROYECTS.AS.DESCRIPTION',
+        image: 'as',
+        tags: ['HTML','CSS','Codegniter','PHP'],
+        link: 'https://www.academiasantiago.com/'
+      },
+      {
+        name: 'PROYECTS.KO.TITLE',
+        description: 'PROYECTS.KO.DESCRIPTION',
         image: 'ko',
         tags: ['Wordpress'],
         link: 'https://kaleta-olejnik.es/'
       },
       {
-        name: 'PROYECTS.DECOTEND_TITLE',
-        description: 'PROYECTS.DECOTEND_DESCRIPTION',
+        name: 'PROYECTS.DECOTEND.TITLE',
+        description: 'PROYECTS.DECOTEND.DESCRIPTION',
         image: 'decotend',
         tags: ['Wordpress'],
         link: 'https://decotend.com/'
