@@ -1,0 +1,38 @@
+{
+  "HEADER": {
+    "ABOUT_ME": "Sobre mi",
+    "PROYECTS": "Proyectos"
+  },
+  "ABOUT_ME": {
+    "DESCRIPTION": "Graduado en Desarrollo de Aplicaciones Web, con un gran interés en la programación, en aprender nuevas tecnoligías y perfeccionar las ya aprendidas. Con capacidad para aprender y aplicar mis conocimientos al ámbito profesional.",
+    "MY_ROUTE": "Mi ruta",
+    "GSDAW": {
+      "TITLE": "Grado Superior de Desarrollo de Aplicaciones web",
+      "DESCRIPTION": "En el grado superior he desarrollado aplicaciones utilizando Angular como framework para forntend y Laravel como framework para el backend. A su vez he aprendido utilizar MySQL, Git y Github y Java.",
+      "DATE": "2020-2022"
+    },
+    "DEKRA": {
+      "TITLE": "Dekra T.C.",
+      "DESCRIPTION": "En Dekra mi puesto era de desarrollador Full Stack especializado en el desarrollo web. Mi funciones eran las siguientes:<br><br>1. Desarrollar y implementar mejoras en la aplicación web de la empresa.<br><br>2. Desarrollar nuevas aplicaciones internas de la empresa.<br><br>3. También he estado desarrollando en equipo grandes proyectos.<br><br>En Dekra el software que he estado desarrollando fue con Angular, AngularJS, Java, SQL y a su vez se ha utilizado Jira para el control de tareas y Git para el control de versiones.",
+      "DATE": "Marzo 2022 - Junio 2022"
+    }
+  },
+  "PROYECTS": {
+    "MLDP": {
+      "TITLE": "Mi lista de películas",
+      "DESCRIPTION": "Hoy en día existen innumerables fuentes de entretenimiento como películas y series, “Mi Lista De Películas” es una aplicación web que permite al usuario explorar las películas o series que son populares en este momento, ver sus datos, etc… También si el usuario quiere organizar el contenido que está consumiendo lo puedo hacer creando listas, como por ejemplo, listas de películas favoritas."
+    },
+    "AS": {
+      "TITLE": "Academia Santiago",
+      "DESCRIPTION": "Página web de una academia, hecha con codeigniter."
+    },
+    "KO": {
+      "TITLE": "Kaleta Olejnik",
+      "DESCRIPTION": "Esta página web es una tienda online. Pertence a un distribuidor de maquinaria y herramientas de albañil."
+    },
+    "DECOTEND": {
+      "TITLE": "Decotend",
+      "DESCRIPTION": "Esta página es una landing page de una empresa de construcción de La Costa del Sol."
+    }
+  }
+}
