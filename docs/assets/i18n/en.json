@@ -1,0 +1,43 @@
+{
+  "HEADER": {
+    "ABOUT_ME": "About Me",
+    "PROYECTS": "Projects"
+  },
+  "ABOUT_ME": {
+    "DESCRIPTION": "Graduated in Web Application Development, with a great interest in programming, in learning new technologies and perfecting those already learned. With the ability to learn and apply my knowledge to the professional field.",
+    "MY_ROUTE": "My route",
+    "GSDAW": {
+      "TITLE": "Higher Degree in Web Application Development",
+      "DESCRIPTION": "In the higher grade I have developed applications using Angular as the framework for the frontend and Laravel as the framework for the backend. At the same time I have learned to use MySQL, Git, Github and Java.<br><br>Some knowledge acquired: JavaScript, TypeScript, PHP, Jenkins, Agile Methodologies.",
+      "DATE": "2020-2022"
+    },
+    "DEKRA": {
+      "TITLE": "Full Stack Developer in Dekra T.C.",
+      "DESCRIPTION": "During my experience in this company, during the degree internship as a full-stack developer, I have had the opportunity to perform a series of functions related to software development, including:<br><ul><li>Development and implementation improvements in the company's web application.</li><li>Creation of new internal company applications.</li><li>Use of Angular and AngularJS for frontend development.</li><li >Use of Java EE and SQL for backend development.</li><li>Use of Jira for task control.</li><li>Use of Git for version control.</li><li>Improved my ability to work in a team.</li></ul>",
+      "DATE": "March 2022 - June 2022"
+    },
+    "SOLERA": {
+      "TITLE": "Software Engineer in Solera Center Of Excellence",
+      "DESCRIPTION": "During my experience in this company, I have had the opportunity to perform a series of functions related to software development within the framework of an intensive training Bootcamp in the field, including:<br><ul><li>Participation in the development of the frontend and backend of the applications.</li><li>Implementation of unit tests and automated testing systems.</li><li>Use of tools and technologies such as React and Spring Boot for development using agile methodologies.</li><li>Use of Selenium, Rest Assured and JUnit for testing applications.</li><li>Acquisition of valuable skills and knowledge for my career in the field of software development.</li>",
+      "DATE": "October 2022 - December 2022"
+    }
+  },
+  "PROYECTS": {
+    "MLDP": {
+      "TITLE": "My movie list",
+      "DESCRIPTION": "Today there are innumerable sources of entertainment such as movies and series, My Movie List is a web application that allows the user to explore the movies or series that are popular at the moment, view their data, etc... Also if the user wants organize the content you are consuming I can do it by creating lists, for example, lists of favorite movies."
+    },
+    "AS": {
+      "TITLE": "Santiago Academy",
+      "DESCRIPTION": "Website of an academy, made with codeigniter."
+    },
+    "KO": {
+      "TITLE": "Kaleta Olejnik",
+      "DESCRIPTION": "This website is an online store. It belongs to a distributor of masonry machinery and tools."
+    },
+    "DECOTEND": {
+      "TITLE": "Decotend",
+      "DESCRIPTION": "This page is a landing page for a construction company on the Costa del Sol."
+    }
+  }
+}
