@@ -25,7 +25,6 @@ export class HeaderComponent implements OnInit {
       this.menuItemsTranslate();
 
       this.social = [
-        {label: 'CV', icon: 'pi pi-fw pi-external-link', href: ''},
         {label: 'Linkedin', icon: 'pi pi-fw pi-linkedin', href: 'https://www.linkedin.com/in/maksym-ostapenko-kulieba-798228210/'},
         {label: 'Github', icon: 'pi pi-fw pi-github', href: 'https://github.com/mikisimi25'}
       ]
@@ -69,12 +68,6 @@ export class HeaderComponent implements OnInit {
         {label: ABOUT_ME, icon: 'pi pi-fw pi-user', routerLink: ['']},
         {label: PROYECTS, icon: 'pi pi-fw pi-briefcase', routerLink: ['/projects']}
       ];
-
-      if(this.languageCase === 'es') {
-        this.social[0].href = 'assets/cv/MaksymOstapenkoCVes.pdf'
-      } else {
-        this.social[0].href = 'assets/cv/MaksymOstapenkoCVen.pdf'
-      }
     });
   }
 }

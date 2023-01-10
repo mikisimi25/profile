@@ -8,13 +8,18 @@
     "MY_ROUTE": "Mi ruta",
     "GSDAW": {
       "TITLE": "Grado Superior de Desarrollo de Aplicaciones web",
-      "DESCRIPTION": "En el grado superior he desarrollado aplicaciones utilizando Angular como framework para forntend y Laravel como framework para el backend. A su vez he aprendido utilizar MySQL, Git y Github y Java.",
+      "DESCRIPTION": "En el grado superior he desarrollado aplicaciones utilizando Angular como framework para frontend y Laravel como framework para el backend. A su vez he aprendido a utilizar MySQL, Git, Github y Java.<br><br>Algunos conocimientos adquiridos: JavaScript, TypeScript, PHP, Jenkins, Metodologías ágiles.",
       "DATE": "2020-2022"
     },
     "DEKRA": {
-      "TITLE": "Dekra T.C.",
-      "DESCRIPTION": "En Dekra mi puesto era de desarrollador Full Stack especializado en el desarrollo web. Mi funciones eran las siguientes:<br><br>1. Desarrollar y implementar mejoras en la aplicación web de la empresa.<br><br>2. Desarrollar nuevas aplicaciones internas de la empresa.<br><br>3. También he estado desarrollando en equipo grandes proyectos.<br><br>En Dekra el software que he estado desarrollando fue con Angular, AngularJS, Java, SQL y a su vez se ha utilizado Jira para el control de tareas y Git para el control de versiones.",
+      "TITLE": "Desarrollador Full Stack en Dekra T.C.",
+      "DESCRIPTION": "Durante mi experiencia en esta empresa, durante las prácticas del grado como desarrollador full-stack, he tenido la oportunidad de desempeñar una serie de funciones relacionadas con el desarrollo de software, entre ellas:<br><ul><li>Desarrollo e implementación de mejoras en la aplicación web de la empresa.</li><li>Creación de nuevas aplicaciones internas de la empresa.</li><li>Uso de Angular y AngularJS para el desarrollo del frontend.</li><li>Uso de Java EE y SQL para el desarrollo del backend.</li><li>Utilización de Jira para el control de tareas.</li><li>Uso de Git para el control de versiones.</li><li>Mejora de mi capacidad para trabajar en equipo.</li></ul>",
       "DATE": "Marzo 2022 - Junio 2022"
+    },
+    "SOLERA": {
+      "TITLE": "Desarrollador de software en Solera Center Of Excellence",
+      "DESCRIPTION": "Durante mi experiencia en esta empresa, he tenido la oportunidad de desempeñar una serie de funciones relacionadas con el desarrollo de software en el marco de un Bootcamp de formación intensiva en el campo, entre ellas:<br><ul><li>Participación en el desarrollo de la parte frontend y backend de las aplicaciones.</li><li>Implementación de pruebas unitarias y sistemas de testeo automatizado.</li><li>Utilización de herramientas y tecnologías como React y Spring Boot para el desarrollo utilizando metodologías ágiles.</li><li>Uso de Selenium, Rest Assured y JUnit para el testeo de las aplicaciones.</li><li>Adquisición de habilidades y conocimientos valiosos para mi carrera en el campo de desarrollo de software.</li>",
+      "DATE": "Octubre 2022 - Diciembre 2022"
     }
   },
   "PROYECTS": {
