@@ -12,10 +12,10 @@ const routes: Routes = [
     path: 'projects',
     component: ProjectsComponent
   },
-  {
-    path: "**",
-    redirectTo: ''
-  }
+  // {
+  //   path: "**",
+  //   redirectTo: ''
+  // }
 ];
 
 @NgModule({
